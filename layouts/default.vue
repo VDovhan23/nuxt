@@ -23,7 +23,8 @@ export default {
         }
       ]
     }
-  }
+  },
+  asyncData(context) {}
 }
 </script>
 <style>
