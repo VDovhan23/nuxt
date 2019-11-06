@@ -14,9 +14,10 @@
 import EventCard from '@/components/EventCard.vue'
 import {mapState} from 'vuex'
 export default {
+
   head() {
     return {
-      title: 'Event Listning'
+      title: 'Event Listening'
     }
   },
   async fetch({ store, error }) {
